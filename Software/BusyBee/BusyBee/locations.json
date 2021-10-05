@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "The Highlands",
+        "latitude": 57.1200,
+        "longitude": -4.7100
+    },
+    {
+        "id": 2,
+        "name": "Great Smoky Mountains",
+        "latitude": 35.6532,
+        "longitude": -83.5070
+    },
+    {
+        "id": 3,
+        "name": "Knight Inlet",
+        "latitude": 50.8883,
+        "longitude": -125.5857,
+    },
+    {
+        "id": 4,
+        "name": "Black River Gorges",
+        "latitude": -20.4264,
+        "longitude": 57.4509,
+    },
+    {
+        "id": 5,
+        "name": "Abu Simbel",
+        "latitude": 22.3460,
+        "longitude": 31.6156,
+    },
+    {
+        "id": 6,
+        "name": "Verona","latitude": 45.4384,
+        "longitude": 10.9916,
+    },
+    {
+        "id": 7,
+        "name": "Taj Mahal",
+        "latitude": 27.1751,
+        "longitude": 78.0421,
+    },
+    {
+        "id": 8,
+        "name": "Penang",
+        "latitude": 5.4141,
+        "longitude": 100.3288,
+    },
+    {
+        "id": 9,
+        "name": "Blue Mountains",
+        "latitude": -33.4100,
+        "longitude": 150.3037,
+    },
+    {
+        "id": 10,
+        "name": "Kyoto",
+        "country": "Japan",
+        "latitude": 35.0116,
+        "longitude": 135.7681,
+    },
+]

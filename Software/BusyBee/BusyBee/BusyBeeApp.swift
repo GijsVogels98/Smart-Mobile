@@ -11,6 +11,8 @@ import SwiftUI
 struct BusyBeeApp: App {
     
     @StateObject var locations = Locations()
+    let persistenceContainer = PersistenceController.shared
+    
     
     var body: some Scene {
         
@@ -21,11 +23,10 @@ struct BusyBeeApp: App {
            
         }
         WindowGroup{
-            NavigationView {
+            NavigationView{
                 MapView()
             }.environmentObject(locations)
-//            .tabItem {
-//                Image(systemName: "star.fill")
+//            .environment(\.managedObjectContext, persistenceContainer.container.viewContext)
 //                Text("Locations")
 //            }
         }

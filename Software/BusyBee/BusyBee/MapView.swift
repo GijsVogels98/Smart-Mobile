@@ -10,9 +10,15 @@ import SwiftUI
 import Combine
 
 struct MapView: View {
+
     @EnvironmentObject var locations: Locations
     @ObservedObject var locationmanager = LocationManager()
     @State private var cancellable : AnyCancellable?
+    
+    
+//    @Environment(\.managedObjectContext) var moc
+//    @FetchRequest(entity: Place.entity(), sortDescriptors: [])
+//        var currentUser: FetchedResults<Place>
     
     
     

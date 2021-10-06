@@ -20,3 +20,18 @@ class Locations: ObservableObject{
         places = try! JSONDecoder().decode([Location].self, from: data)
     }
 }
+
+//
+//let jsonString = "{"location": "the moon"}"
+//
+//if let documentDirectory = FileManager.default.urls(for: .documentDirectory,
+//                                                    in: .userDomainMask).first {
+//    let pathWithFilename = documentDirectory.appendingPathComponent("myJsonString.json")
+//    do {
+//        try jsonString.write(to: pathWithFilename,
+//                             atomically: true,
+//                             encoding: .utf8)
+//    } catch {
+//        // Handle error
+//    }
+//}
